@@ -3,7 +3,7 @@
     "jkey": "219942d7-a1a5-11eb-b2d7-67803f700a88",
     "client_id": "e3afb768e1754466a689598521692941",
     "client_secret": "5899f8a6f29e49da9cad511e6dd67410",
-    "redirect_uri": "http://locahost:8080",
+    "redirect_uri": "https://dry-mountain-66284.herokuapp.com",
     "bot_token": "1733716053:AAFzsUq9vilLbPEPwscM86JL3zhqHfjv4n8",
     "sudo_list": [123456789]
 }
