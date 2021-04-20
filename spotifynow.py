@@ -8,7 +8,7 @@ from telegram import Bot, ParseMode, InlineKeyboardMarkup, InlineKeyboardButton,
 def link(update, context):
     'add new user'
     if update.effective_chat.type != update.effective_chat.PRIVATE:
-        button = InlineKeyboardMarkup([[InlineKeyboardButton(text="Link",url="t.me/spotifynowbot")]])
+        button = InlineKeyboardMarkup([[InlineKeyboardButton(text="Link",url="t.me/devilspotifybot")]])
         update.effective_message.reply_text("Contact me in private chat to link your Spotify account.", reply_markup=button)
         return ConversationHandler.END
     message = "I'm gonna need some information for linking your Spotify account. Tell me, what should I call you?"
